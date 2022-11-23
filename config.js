@@ -118,7 +118,7 @@ global.log = function log() {
 	console.log.apply(console, args);
 }
 global.owner = [
-	//  ['6281234288573'],
+	//  ['6281543385935'],
 	//['12546153210'],
 	['62895612153565', 'Johannes', true],
 	['6282287219167', 'Papah-Chan', true]
@@ -139,8 +139,8 @@ global.APIKeys = { // APIKey Here
 	'https://ghostui-api.herokuapp.com/': 'OC2eTK'
 }
 // Sticker WM
-global.packname = ''
-global.author = ''
+global.packname = 'Padli'
+global.author = 'Bot'
 
 global.sgc = 'https://chat.whatsapp.com/Eo0rT2MCSiWIijy7fMHlB7'
 global.sig = 'https://instagram.com/bot_whangsaf'
@@ -150,13 +150,13 @@ global.urlnya = "https://www.instagram.com/bot_whangsaf"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 822-8721-9167'
+global.phn = '+62 815-4338-5935'
 global.multiplier = 69 // The higher, The harder levelup
 /*============== NOMOR ==============*/
-global.nomorbot = '66801944580'
-global.nomorown = '6282287219167'
-global.namebot = 'Sad-Bot'
-global.nameown = 'Papah-Chan'
+global.nomorbot = '6283840127268'
+global.nomorown = '6281543385935'
+global.namebot = 'Pobot'
+global.nameown = 'Siganteng'
 global.thumb2 = fs.readFileSync('./papah.jpg')
 
 /*=========== FAKE SIZE ===========*/
