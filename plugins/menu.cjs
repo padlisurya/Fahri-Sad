@@ -8,7 +8,7 @@ var levelling = require('../lib/levelling.cjs')
 var moment = require('moment-timezone')
 var defaultMenu = {
 	before: `
-👋🏻 Halo kak %name
+Halo kak *%name*🤟
 
 *Limit* : %limit
 *Role* : %role
