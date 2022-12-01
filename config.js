@@ -41,8 +41,8 @@ global.tiny = (await import('./lib/tiny.cjs')).default
 global.gc = "https://chat.whatsapp.com/IyJnQ3YUhXXBcF6tQG4TJ3"
 global.gh = "https://github.com/"
 global.yt = "https://youtube.com/"
-global.wm = '                  〈 𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝 〉'
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm = '            〈 ꒷꒥𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝꒥꒷ 〉'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - ghαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺  surya كوسوما'
 function ucapan() {
 	var time = moment.tz('Asia/Jakarta').format('HH')
