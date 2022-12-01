@@ -24,7 +24,7 @@ Halo kak *%name*🤟
 `.trimStart(),
 	header: '*%category*',
 	body: '⚄ %cmd %islimit %isPremium',
-	footer: '/n/n',
+	footer: '',
 	after: `〈 ꒷꒥𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝꒥꒷ 〉`,
 }
 var handler = async (m, {
