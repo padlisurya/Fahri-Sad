@@ -24,7 +24,7 @@ var defaultMenu = {
 `.trimStart(),
 	header: '*%category*',
 	body: '⚄ %cmd %islimit %isPremium',
-	footer: '\n',
+	footer: '〈 ꒷꒥𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝꒥꒷ 〉',
 	after: ``,
 }
 var handler = async (m, {
