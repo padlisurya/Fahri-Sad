@@ -32,10 +32,10 @@ var handler = async (m, {
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa:* [082114499086]
-• *Dana:* [082114499086]
-• *OVO:* [082114499086]
-• *Gopay:* [082114499086]
+• *Pulsa:* [081543385935]
+• *Dana:* [08871555774]
+• *OVO:* [08871555774]
+• *Gopay:* [081543385935]
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, point buat apa?
@@ -119,7 +119,7 @@ var handler = async (m, {
 	var listMessage = {
 		text: info,
 		footer: `𝗧 𝗜 𝗠 𝗘 : ${time}`,
-		title: "BOTSTYLEE",
+		title: "Padlibot",
 		buttonText: "Click Here!",
 		sections
 	}
