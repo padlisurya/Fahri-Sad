@@ -17,6 +17,7 @@ Selamat, ${conn.getName(m.sender)} telah naik level!
 • 🧬Level Sebelumnya : ${before}
 • 🧬Level Baru : ${user.level}
 • 🧬Role Kamu : ${user.role}
+*.disable autolevelup* untuk mematikan autolevelup 
 gunakan *.inventory* untuk mengecek
 	`.trim())
 	}
