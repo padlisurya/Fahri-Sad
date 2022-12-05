@@ -14,16 +14,16 @@ var handler = async (m, {
 	var muptime = msToDate(_muptime)
 	var bot = db.data.settings[conn.user.jid]
 	var status = `\t\t\t\t\t\t*S T A T U S*\n*self:* ${bot.self ? '✅' : '❎'}\n*restrict:* ${bot.restrict ? '✅' : '❎'}\n*onlypc:* ${bot.pconly ? '✅' : '❎'}`
-	conn.sendButtonDoc(m.chat, await tiny(`\n*runtime*: ${muptime}\n\n${status}`), wm, 'Ping', '/ping', m, {
+	conn.sendButtonDoc(m.chat, await tiny(`\n*runtime*: ${muptime}\n\n${status}`), wm, 'RUNTIME', '/ping', m, {
 		contextInfo: {
 			externalAdReply: {
 				mediaType: 2,
-				description: 'BOTSTYLEE',
+				description: 'padli',
 				title: bottime,
 				mediaUrl: 'bit.ly/Papah-Chan', 
 				body: '𓃗𓅜',
 				thumbnail: profil,
-				sourceUrl: 'https://chat.whatsapp.com/KYIzgolOI1I66efv9UMfch',
+				sourceUrl: 'https://chat.whatsapp.com/I4IBYX5T8jA6LBrQvAVCHZ',
 				showAdAttribution: true, // false
 				//renderLargerThumbnail: true // false
 			}
