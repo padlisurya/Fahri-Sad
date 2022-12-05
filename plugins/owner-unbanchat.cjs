@@ -1,5 +1,5 @@
 var handler = async (m) => {
-	db.data.chats[m.chat].isBanned = false
+	db.data.chats[m.chat].isBanned = true
 	m.reply('Done!')
 }
 handler.help = ['unbanchat']
