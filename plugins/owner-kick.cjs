@@ -7,7 +7,7 @@ var handler = async (m, {
 }) => {
 	var users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
 	console.log(users)
-	if (!users) return m.reply("tag orangnya dong bang")
+	if (!users) return m.reply("Silahkan tag nomor WhatsApp nya untuk di kick dari group")
 	var kickedUser = []
 	for (var user of users)
 		if (user.endsWith('@s.whatsapp.net') && !(participants.find(v => areJidsSameUser(v.id, user)) || {
