@@ -10,9 +10,11 @@ var handler = async (m, {
 	if (!text) throw `Example use ${usedPrefix + command} minecraft`
 	var json = await pinterest(text)
 	conn.sendFile(m.chat, json.getRandom(), 'pinterest.jpg', `
-*Hasil pencarian*
-${text}
-© BOTSTYLEE
+_Search result.._
+
+keyword: ${text}
+
+Padli-Bot✨
 `.trim(), m)
 }
 handler.help = ['pinterest <keyword>']
