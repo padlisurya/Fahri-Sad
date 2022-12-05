@@ -152,9 +152,6 @@ var handler = async (m, {
 	if (teks == 'random') tags = {
 		'random': 'Random Sound'
 	}
-	if (teks == 'war') tags = {
-		'war': 'War'
-	}
 	if (teks == 'quran') tags = {
 		'quran': 'Quran'
 	}
@@ -229,9 +226,9 @@ var handler = async (m, {
 				text: 'Sekarang Jam ' + time,
 				footer: wm,
 				title: '```' + ucapan() + name + '```\n*' + week + ' - ' + date + '*\n',
-				buttonText: "Click",
+				buttonText: "Click this",
 				sections: [{
-					title: "List Featured",
+					title: "Fitur Bot ✨",
 					rows: [{
 							title: "All",
 							rowId: _p + `? all`
@@ -323,10 +320,6 @@ var handler = async (m, {
 					        {
 							title: "Random Sound",
 							rowId: _p + `? random`
-						},
-						{
-							title: "War",
-							rowId: _p + `? war`
 						},
 						{
 							title: "Quran",
