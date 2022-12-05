@@ -62,10 +62,10 @@ https://github.com/FahriAdison
 *❉ Rlxfly:*
 `
 conn.sendButtonDoc(m.chat, tqto, wm, 'Menu', '/menu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        mediaUrl: "https://Instagram.com/bot_whangsaf",
-        mediaType: "VIDEO",
-        description: "https://Instagram.com/bot_whangsaf", 
-        title: 'Simple Bot Esm',
+        mediaUrl: "https://Instagram.com/Padlisuryakusuma_",
+        mediaType: "IMAGE",
+        description: "https://Instagram.com/Padlisuryakusuma_", 
+        title: 'Padli_Bot',
         body: wm,
         thumbnail: thumb,
         sourceUrl: sgc
