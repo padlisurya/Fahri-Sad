@@ -16,7 +16,7 @@ var handler = async (m, {
 	if (/webp/.test(mime)) {
 		out = await webp2png(media)
 	}
-	await conn.sendFile(m.chat, out, 'out.jpeg', '*kemlar*', m, false, {
+	await conn.sendFile(m.chat, out, 'out.jpeg', '*Selesai..*', m, false, {
 		thumbnail: fs.readFileSync('./src/gambar/l.jpg')
 	})
 }
