@@ -22,5 +22,5 @@ gunakan *.inventory* untuk mengecek
 	`.trim())
 	}
 }
-handler.disabled = false
+handler.disabled = disable
 module.exports = handler
