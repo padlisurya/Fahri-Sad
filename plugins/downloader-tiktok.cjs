@@ -1,11 +1,11 @@
 var { tiktokdl } = require ('@bochilteam/scraper')
-var wm = '                「 ꜱᴀᴅ BOT あ⁩ 」'
+var wm = 'Padli-Bot'
 var handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
     var { author: { nickname }, video, description } = await tiktokdl(args[0])
     var url = video.no_watermark || video.no_watermark2 || video.no_watermark_raw
     if (!url) throw 'Can\'t download video!'
-    conn.sendFile(m.chat, url, 'tiktok.mp4', `*TIKTOK DOWNLOADER*
+    conn.sendFile(m.chat, url, 'tiktok.mp4', `*FILE TIKTOK*
 *Nickname:* ${nickname}
 *Description:* ${description}
 
