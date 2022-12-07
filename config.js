@@ -142,7 +142,7 @@ global.APIKeys = { // APIKey Here
 global.packname = 'Padlib0t |'
 global.author = '+6283840127268'
 
-global.sgc = 'https://chat.whatsapp.com/IyJnQ3YUhXXBcF6tQG4TJ3'
+global.sgc = 'https://chat.whatsapp.com/L9fpukWeZ8e4yNbH57D2wY'
 global.sig = 'https://instagram.com/padlisuryakusuma_'
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
