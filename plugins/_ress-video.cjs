@@ -19,10 +19,10 @@ var dl_url = await yt.video[q].download()
   var ttl = await yt.title
 var size = await yt.video[q].fileSizeH
   
- await m.reply(`▢ Jᴜᴅᴜʟ: ${ttl}
-▢  Uᴋᴜʀᴀɴ​: ${size}
+ await m.reply(`*${ttl}*
+Size *${size}*
 
-▢ Lᴏᴀᴅɪɴɢ....Mᴏʜᴏɴ Tᴜɴɢɢᴜ Bᴇʙᴇʀᴀᴘᴀ Sᴀᴀᴛ​`)
+Loading, please wait a minute.. 👾​`)
   await conn.sendMessage(m.chat, { [/^(?:-|--)doc$/i.test(args[1]) || null ? 'document' : 'video']: { url: dl_url }, fileName: `${wm}.mp4`, mimetype: 'video/mp4' }, { quoted: m })
 }
 
