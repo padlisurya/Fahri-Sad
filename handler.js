@@ -810,8 +810,8 @@ export async function handler(chatUpdate) {
 				}
 			}
 		}
-		if (!m.fromMe && m.text.match(/(makasi|thanks|thank|terima kasih|suwon)/gi)) {
-			conn.reply(m.chat, "hooh😅👆", false)
+		if (!m.fromMe && m.text.match(/(Assalamualaikum|assalamualaikum|permisi|execuse me|halo)/gi)) {
+			conn.reply(m.chat, "Waalaikumsalam warahmatullahi wabarakatuh :)", false)
 		}
 		var ___dirname = path.join(path.dirname(fileURLToPath(
 			import.meta.url)), './plugins')
@@ -1225,16 +1225,16 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
 	var msg = {
-		rowner: '```Oɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ!!```',
-		owner: '```Oɴʟʏ ᴏᴡɴᴇʀ ʙᴏᴛ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ!!!```',
-		mods: '```Oɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ!!```',
-		premium: 'Pᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʀ _*Pʀᴇᴍɪᴜᴍ*_ !',
-		group: '```Pᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴʏᴀ ᴅᴀᴘᴀᴛ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ ɢʀᴜᴘ!```',
-		private: '```Pᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴʏᴀ ᴅᴀᴘᴀᴛ ᴅɪɢᴜɴᴀᴋᴀɴ ᴅɪ Cʜᴀᴛ Pʀɪʙᴀᴅɪ!```',
-		admin: 'Pᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ *Aᴅᴍɪɴ* ɢʀᴜᴘ!',
-		botAdmin: 'Jᴀᴅɪᴋᴀɴ ʙᴏᴛ ꜱᴇʙᴀɢᴀɪ *Aᴅᴍɪɴ* ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ!',
-		unreg: 'Sɪʟᴀʜᴋᴀɴ ᴅᴀғᴛᴀʀ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ ᴅᴇɴɢᴀɴ ᴄᴀʀᴀ ᴍᴇɴɢᴇᴛɪᴋ:\n\n*#ᴅᴀғᴛᴀʀ ɴᴀᴍᴀ.ᴜᴍᴜʀ*\n\nCᴏɴᴛᴏʜ: *#ᴅᴀғᴛᴀʀ Mᴀɴᴜꜱɪᴀ.16*',
-		restrict: 'Fɪᴛᴜʀ ɪɴɪ ᴅɪ *ᴅɪꜱᴀʙʟᴇ*!'
+		rowner: '```Hanya Owner Yang Bisa Menggunakan Perintah Ini :)```',
+		owner: '```Hanya Pemilik Bot Yang Bisa Menggunakan Perintah Ini :)```',
+		mods: '```Hanya Moderator Yang Bisa Menggunakan Perintah Ini :)```',
+		premium: 'Perintah Ini Hanya Untuk Pengguna _*Pʀᴇᴍɪᴜᴍ*_ !',
+		group: '```Perintah Ini Hanya Bisa Digunakan Di Group Chat```',
+		private: '```Perintah Ini Hanya Bisa Digunakan Di Chat Pribadi```',
+		admin: 'Perintah Ini Hanya Bisa Digunakan oleh *Aᴅᴍɪɴ* ɢʀᴜᴘ!',
+		botAdmin: 'Jadikan Bot Ini Sebagai *Admin Group* Untuk Menggunakan Perintah Ini.',
+		unreg: 'Silahkan Daftar Untuk Menggunakan Fitur Ini Dengan Cara Mengetik: \n\n*#daftar nama.umur*\n\nCᴏɴᴛᴏʜ: *#daftar Padli.17*',
+		restrict: 'Fitur Ini *Disable*'
 	} [type]
 	if (msg) return m.reply(msg)
 }
