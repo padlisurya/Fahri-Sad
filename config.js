@@ -41,7 +41,7 @@ global.tiny = (await import('./lib/tiny.cjs')).default
 global.gc = "https://chat.whatsapp.com/IyJnQ3YUhXXBcF6tQG4TJ3"
 global.gh = "https://github.com/"
 global.yt = "https://youtube.com/"
-global.wm = '            〈 ꒷꒥𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝꒥꒷ 〉'
+global.wm = '             𝚙𝚊𝚍𝚕𝚒-𝚋𝚘𝚝'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - ghαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺  surya كوسوما'
 function ucapan() {
@@ -120,8 +120,8 @@ global.log = function log() {
 global.owner = [
 	//  ['6281234288573'],
 	//['12546153210'],
-	['6281543385935', 'bukan owner', true],
-	['6281543385935', 'bukan owner', true]
+	['6281543385935', '.', true],
+	['6281543385935', '.', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -139,8 +139,8 @@ global.APIKeys = { // APIKey Here
 	'https://ghostui-api.herokuapp.com/': 'OC2eTK'
 }
 // Sticker WM
-global.packname = 'Padlib0t |'
-global.author = '+6283840127268'
+global.packname = 'padli'
+global.author = 'surya'
 
 global.sgc = 'https://chat.whatsapp.com/L9fpukWeZ8e4yNbH57D2wY'
 global.sig = 'https://instagram.com/padlisuryakusuma_'
